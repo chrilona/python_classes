@@ -1,5 +1,4 @@
 
-from unicodedata import decomposition
 
 
 class Student:
@@ -20,6 +19,14 @@ class Student:
     def y_o_b(self):
         y_o_b=self.current_year-self.age
         return f" You were born in {y_o_b}"
+# On the terminal
+#from student import Student
+#  >>> student=Student("Mollen","Wambui",2022,21)
+# >>> student.full_name()
+# 'Hello Mollen Wambui is your full name'
+# >>> student.initials()
+# 'Your initials are M W'  
+
 
 
 
